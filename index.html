@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Home Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+<link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="utf-8"></script>
+
+   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+
+</head>
+<body id="container" class="data">
+	<header >
+
+			<div class="navbar">
+				
+				<a class="navbar-brand">SNEAKSTER</a>
+				
+            <nav>
+			 <ul id="MenuItems">
+                <li><a href="index.html">Home</a></li>
+				<div class="dropdown">
+				<li><a href="product.html" >Shop</a></li>				
+				<div class="dropdown-content">
+					<a href="product.html">Men</a>
+					<a href="women-products.html">Women</a>
+					<a href="Kids.html">Kids</a>
+				</div>
+				</div>					
+                <li><a href="register.html">Register</a></li>
+				<li><a href="about us.html">About Us</a></li>
+			  </ul>
+            </nav>
+	
+			
+		</div>
+
+	<div class="icons">
+
+	</i></button>
+		<a><i class="bx bx-shopping-bag" id="cart-icon"></i></a>
+		<a href="Profile.html"><i class='bx bxs-user'></i></a> 
+			<a><i  class="bx bx-menu" id="menuToggle"></i></a>
+
+
+		<!--cart-->
+		<div class="cart">
+			<h2 class="cart-title">Your Cart</h2>
+ 
+			<div class="cart-content">
+
+				</div>
+		
+
+			<div class="total">
+					<div class="total-title">Total</div>
+					<div class="total-price">$0</div>
+			</div>
+			<button type="button" class="btn-buy">Buy now</button>
+
+			<!--close cart-->
+			<i class='bx bx-menu' id="cart-close"></i>
+		</div>
+	</div>
+			
+	</header>
+	<!--end header-->
+
+	
+	<div id="content1">
+	<section class="home" id="home">
+		<div class="slide-container active">
+			<div class="slide">
+				<div class="content">
+					
+					<span>SNEAKSTER</span>
+					<p>
+						Welcome to Sneakster!, your ultimate destination for all things sneakers! We're thrilled to have you here, ready to embark on a thrilling journey through the world of footwear and style.
+					</p>
+
+				</div>
+				<div class="image">
+					<img src="img/slide/j4p.jpg" class="shoe" alt="jordan(4) image">
+				</div>
+				<div id="alertBox">
+					<p>Please update your personal details on our website by clicking  <a href="Profile.html"><i class='bx bxs-user'></i></a></p>
+				  </div>
+
+
+			</div>
+		</div>
+		<div class="slide-container">
+			<div class="slide">
+				<div class="content">
+					<span>Are you ready to take your sneaker game to the next level?</span>
+					<p>
+						At Sneakster, we're here to help you find the perfect pair that will make heads turn and leave you feeling unstoppable.			</p>
+					<a href="women-products.html" class="btn">Explore more</a>
+				</div>
+				<div class="image">
+					<img src="img/slide/j1w.webp" class="shoe" alt="jordan(1) image">
+				</div>
+				<div id="alertBox">
+					<p>Please update your personal details on our website by clicking  <a href="Profile.html"><i class='bx bxs-user'></i></a></p>
+				  </div>
+			</div>
+		</div>
+		<div class="slide-container">
+			<div class="slide">
+				<div class="content">
+					
+					<span>Ready to find your perfect sole mate? Tell us, what kind of sneaker style inspires your individuality?</span>
+					<p>
+						We take pride in offering a wide range of sneakers that cater to every style and preference. 
+					</p>
+					<a href="menproduct2.html" class="btn">Explore more</a>
+				</div>
+				<div class="image">
+					<img src="img/slide/j2w.webp" class="shoe" alt="nike shoe">
+				</div>
+				<div id="alertBox">
+					<p>Please update your personal details on our website by clicking  <a href="Profile.html"><i class='bx bxs-user'></i></a></p>
+				  </div>
+			</div>
+
+		</div>
+
+		<div id="prev" class="fa fa-angle-left" onclick="prev();"></div>
+		<div id="next" class="fa fa-angle-right" onclick="next();"></div>
+
+	
+
+
+	</section>
+	<!--end home-->
+
+	<section class="features-part">
+	
+
+		<!-- <div class="features">
+			<div class="feature">
+				<i class='bx bx-package' ></i>
+				<span class="featureTitle">Secured Shipping</span>
+				<span class="featureDesc">Prioritize the security of your shipment.</span>
+
+			</div>
+			<div class="feature">
+				<i class='bx bx-check-circle'></i>
+				<span class="featureTitle">Product Certified</span>
+				<span class="featureDesc">All our products are certified and guaranteed.</span>
+			</div>
+			<div class="feature">
+				<i class='bx bx-money-withdraw'></i>
+				<span class="featureTitle">Refund guaranteed</span>
+				<span class="featureDesc">A satisfaction gurantee on every order.</span>
+			</div>
+
+		</div> -->
+	</section>
+
+	<div class="features">
+        <div class="feature">
+            <img src="./img/shipping.png" alt="" class="featureIcon">
+            <span class="featureTitle">FREE SHIPPING</span>
+            <span class="featureDescription">Free shipping on all orders (Indonesia Only).</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="./img/return.png" alt="">
+            <span class="featureTitle">30 DAYS RETURN</span>
+            <span class="featureDescription">No question return and easy refund in 14 days.</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="./img/gift.png" alt="">
+            <span class="featureTitle">GIFT CARDS</span>
+            <span class="featureDescription">Buy gift cards and use coupon codes easily.</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="./img/contact.png" alt="">
+            <span class="featureTitle">CONTACT US</span>
+            <span class="featureDescription">Keep in touch via email and support system.</span>
+        </div>
+    </div>
+
+	<!--end sidebar-->
+	
+
+<!--end -->
+
+<!-- <section class="website-definition">
+	<div class="definition-container">
+		<h1>Welcome to Sneakster</h1><br>
+		<p>
+			Welcome to Sneakster, where your sneaker dreams come to life! We're excited to have you here, ready to embark on a journey of style, 
+			self-expression, and standout footwear. Get ready to step into a world of exceptional sneakers and unleash your unique sneaker style. Happy exploring!
+		</p><br>
+		<p>
+			Step into our virtual showroom and indulge in the pleasure of browsing our meticulously curated collection of exceptional sneakers that will ignite your passion 
+			for style and elevate your sneaker game to new heights.
+		</p>
+	</div>
+</section> -->
+
+<!--featured products-->
+<!-- <section class="featured-categories" id="featuredc">
+	<div class="center-text">
+		<h2>Featured categories</h2>
+	</div> 
+	<div class="featured-content">
+		<div class="rowf">
+			<img src="img/team/men1.jpg" >
+			<div class="fea-text">
+				<h5>Mens</h5>
+				<p>20 items</p>
+			</div>
+			<div class="arrow">
+				<a href=""><i class='bx bx-right-arrow-alt'></i></a>
+			</div>
+		</div>
+		<div class="rowf">
+			<img src="img/team/women1.jpg" alt="women image">
+			<div class="fea-text">
+				<h5>Women</h5>
+				<p>20 items</p>
+			</div>
+			<div class="arrow">
+				<a href="women"><i class='bx bx-right-arrow-alt'></i></a>
+			</div>
+		</div>
+		<div class="rowf">
+			<img src="img/team/kids1.jpg" alt="kid image">
+			<div class="fea-text">
+				<h5>Kids</h5>
+				<p>20 items</p>
+			</div>
+			<div class="arrow">
+				<a href="Kids.html"><i class='bx bx-right-arrow-alt'></i></a>
+			</div>
+		</div>
+	</div>
+</section> -->
+
+<section class="slide-show">
+	<div class="video-section">
+		<video src="video/lebron17.mp4"  autoplay muted loop></video>
+	  </div>
+	  
+</section>
+<div class="small-container">
+	<div class="center-text">
+	<h2 >Featured Products</h2>
+</div>
+	<div class="row">
+		<div class="col-4">
+			<img src="img/product3/zw1.webp"  class="product-img" alt="Retro Low OG">
+			<h4 class="sub-title">Zion Williamson x Air Jordan 1 Retro Low OG 'Voodoo'</h4>
+			<div class="rating">
+			<i class='bx bxs-star'></i>
+			<i class='bx bxs-star'></i>
+			<i class='bx bxs-star'></i>
+			<i class='bx bxs-star'></i>
+		</div>
+			<p class="price">220$</p>
+			<i class='bx bx-shopping-bag add-cart'></i>
+
+		</div>
+		<div class="col-4">
+			<a href="products-details/product36-details.html"><img src="img/product36/retrothunder5.webp" alt="Jordan 4 Thunder" class="product-img"></a>
+			<a href="products-details/product36-details.html"><h4 class="sub-title">Air Jordan 4 Retro 'Red Thunder'</h4></a>
+			<div class="rating">
+			<i class='bx bxs-star'></i>
+			<i class='bx bxs-star'></i>
+			<i class='bx bxs-star'></i>
+			<i class='bx bxs-star-half-o'></i>
+		</div>
+			<p class="price">350$</p>
+			<i class='bx bx-shopping-bag add-cart'></i>
+
+		</div>
+		<div class="col-4">
+			<a href="products-details/product5-details.html"><img src="img/product5/offwhitej4.1.webp" alt=" Jordan 4 SP 'Sail" class="product-img"></a>
+			<a href="products-details/product5-details.html"><h4 class="sub-title">2020	Off-White x Wmns Air Jordan 4 SP 'Sail'</h4></a>
+			<div class="rating">
+			<i class='bx bxs-star'></i>
+			<i class='bx bxs-star'></i>
+			<i class='bx bxs-star'></i>
+			<i class='bx bxs-star'></i>
+		</div>
+			<p class="price">1,250$</p>
+			<i class='bx bx-shopping-bag add-cart'></i>
+
+		</div>
+		<div class="col-4">
+			<a href="products-details/product22-details.html"><img src="img/product22/purpledunk1.webp" alt="Dunk Low Lilac" class="product-img"></a>
+			<a href="products-details/product22-details.html"><h4 class="sub-title"> Wmns Dunk Low Next Nature 'Lilac'</h4></a>
+			<div class="rating">
+			<i class='bx bxs-star'></i>
+			<i class='bx bxs-star'></i>
+			<i class='bx bxs-star'></i>
+			<i class='bx bxs-star'></i>
+		</div>
+			<p class="price">165$</p>
+			<i class='bx bx-shopping-bag add-cart'></i>
+
+
+		</div>
+		<div class="col-4">
+			<a href="products-details/27-details.html"><img src="img/product27/pureretro1.webp" alt="Jordan 11" class="product-img"></a>
+			<a href="products-details/27-details.html"><h4 class="sub-title"> Wmns Air Jordan 11 Retro Low 'Pure Violet'</h4></a>
+			<div class="rating">
+			<i class='bx bxs-star'></i>
+			<i class='bx bxs-star'></i>
+			<i class='bx bxs-star'></i>
+			<i class='bx bxs-star'></i>
+		</div>
+			<p class="price">245$</p>
+			<i class='bx bx-shopping-bag add-cart'></i>
+
+
+		</div>
+		<div class="col-4">
+			<a href="products-details/product45-details.html"><img src="img/product45/mbbigkid.1.webp" alt="" class="product-img"></a>
+			<a href="products-details/product45-details.html"><h4 class="sub-title">MB.01 Big Kid 'Iridescent Dreams'</h4></a>
+			<div class="rating">
+			<i class='bx bxs-star'></i>
+			<i class='bx bxs-star'></i>
+			<i class='bx bxs-star'></i>
+			<i class='bx bxs-star'></i>
+		</div>
+			<p class="price">135$</p>
+			<i class='bx bx-shopping-bag add-cart'></i>
+		</div>
+		<div class="col-4">
+			<a href="products-details/product48-details.html"><img src="img/product48/jordanmidgs.1.webp" alt="" class="product-img" ></a>
+			<a href="products-details/product48-details.html"><h4 class="sub-title">Air Jordan 1 Mid SE GS 'All Star 2021'</h4></a>
+			<div class="rating">
+			<i class='bx bxs-star'></i>
+			<i class='bx bxs-star'></i>
+			<i class='bx bxs-star'></i>
+			<i class='bx bxs-star'></i>
+		</div>
+			<p class="price">185$</p>
+			<i class='bx bx-shopping-bag add-cart'></i>
+
+
+		</div>
+		<div class="col-4">
+			<a href="products-details/product52-details.html"><img src="img/product52/nike101.1.webp" alt="" class="product-img"></a>
+			<a href="products-details/product52-details.html"><h4 class="sub-title">Dunk Low GS 'Nike 101'</h4></a>
+			<div class="rating">
+			<i class='bx bxs-star'></i>
+			<i class='bx bxs-star'></i>
+			<i class='bx bxs-star'></i>
+			<i class='bx bxs-star'></i>
+		</div>
+			<p class="price">235$</p>
+			<i class='bx bx-shopping-bag add-cart'></i>
+
+
+		</div>
+		
+	</div>
+
+</div>
+
+
+
+<!--end featured products-->
+
+
+<!-- <section class="brands">
+	<div class="brand">
+
+			<div class="col-5">
+				<img src="img/logos/nike.png" >
+			</div>
+			<div class="col-5">
+				<img src="img/logos/adidas.png" >
+			</div>
+			<div class="col-5">
+				<img src="img/logos/nb.png" >
+			</div>
+			<div class="col-5">
+				<img src="img/logos/jordanl.png" >
+			</div>
+	</div>
+</section> -->
+<section class="footer">
+	<footer class="footer">
+		 <div class="container-footer">
+			 <div class="row-footer">
+				 <div class="footer-col">
+					 <h4>Personal Info</h4>
+					 <ul>
+						<li><a href="about us.html"><Span style="font-weight: bold;">Done by : </Span> Sneakster </a></li>
+						<li><a href="about us.html">Email : sneakster@gmail.com</a></li>
+					 </ul>
+				 </div>
+				 <div class="footer-col">
+					 <h4>Help Needed</h4>
+					 <ul>
+						 <li><a href="mailto:sneakerscorner213@gmail.com">Via Email</a></li>
+						 <li><a href="about us.html">Send Enquiry</a></li>
+					 </ul>
+				 </div>
+				 <div class="footer-col">
+					 <h4>Categories</h4>
+					 <ul>
+						 <li><a href="product.html">MEN</a></li>
+						 <li><a href="women-products.html">WOMEN</a></li>
+						 <li><a href="Kids.html">KIDS</a></li>
+					 </ul>
+				 </div>
+				 <div class="footer-col">
+					 <h4>Personal Media</h4>
+  
+					 <div class="social-links">
+						<a href="https://twitter.com/Sneakster28"><i class="fab fa-twitter"></i></a>
+						<a href="https://www.instagram.com/sneakster28/"><i class="fab fa-instagram"></i></a>
+						<a href="https://www.tiktok.com/@sneakster28?lang=en"><i class="fab fa-tiktok"></i></a>
+  
+					 </div>
+				 </div>
+			 </div>
+		 </div>
+	</footer>
+	</section>
+</div>
+
+<script src="js/script.js" type="text/javascript"></script>
+
+</body>
+</html>
